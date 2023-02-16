@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenPass", "GenPass\GenPass.csproj", "{4D863D07-35A6-4FAC-93B7-BA3ABACE8BAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenConsole", "Test\GenConsole\GenConsole.csproj", "{F886023E-00D5-42CA-94EA-E35A88893A5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{E0142CF4-75F2-411E-A9E1-90EF11A8BA80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{4D863D07-35A6-4FAC-93B7-BA3ABACE8BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D863D07-35A6-4FAC-93B7-BA3ABACE8BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D863D07-35A6-4FAC-93B7-BA3ABACE8BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F886023E-00D5-42CA-94EA-E35A88893A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F886023E-00D5-42CA-94EA-E35A88893A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F886023E-00D5-42CA-94EA-E35A88893A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F886023E-00D5-42CA-94EA-E35A88893A5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F886023E-00D5-42CA-94EA-E35A88893A5E} = {E0142CF4-75F2-411E-A9E1-90EF11A8BA80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16DCF55E-6CF8-44E7-85B2-5C4470E45562}
